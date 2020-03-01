@@ -7,26 +7,28 @@
         <meta name="author" content="Nomokonov Alex, Russia, Novosibirsk">
         <title>Links 4ubaka</title>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet"
               integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
               crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                crossorigin="anonymous"></script>
         <script src="../style/js/http_use.fontawesome.com_4d20c55d17.js"></script>
+        <link rel="stylesheet" href="../style/css/style_links.css">
         <link rel="stylesheet" href="../style/css/style.css">
     </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="../../index.html">4ubaka</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <div class="navbar-collapse collapse show" id="navbarsExampleDefault" style="">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="../../index.html">Main<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="../../index.html">Main</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="link.html">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -37,27 +39,39 @@
             <!-- Main jumbotron for a primary marketing message or call to action -->
             <div class="jumbotron">
                 <div class="container">
-                          <h3 class="display-3">Contacts </h3>
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h3 class="display-3">Contacts </h3>
+                        </div>
+                        <div class="col-md-2">
+                            <img src="../image/1.png" class="img-circle" alt="" width="100" height="100">
+                        </div>
+                    </div>
                 </div>
 
             </div>
 
             <div class="container">
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="col-md-4">
-                        <h2>vk.com</h2>
-                        <a href="https://vk.com/therealnomokon">Alexandr Nomokonov</a>
-                    </div>
-                    <div class="col-md-4">
-                        <h2>Email</h2>
-                        <i class="fab fa-mailchimp">nomokon2012@gmail.com</i>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="../image/1.png"  class="img-circle">
-                    </div>
+                <div class="contacts">
+                    <div class="row">
+                        <div class="col-md-4" style="margin-top: 25%">
+                            <div>
+                                <a href="https://vk.com/therealnomokon"> <img src="../image/icons/icon_vk.png"
+                                                                              class="img-circle" width="100"
+                                                                              height="100"></a>
+                                <a href="https://vk.com/therealnomokon">Alexandr Nomokonov</a>
+                            </div>
+                            <div>
+                                <img src="../image/icons/email.png" class="img-circle" width="100" height="100"
+                                     style="margin-top: 2%">
+                                <i class="fab fa-mailchimp">nomokon2012@gmail.com</i>
+                            </div>
 
-
+                        </div>
+                        <div class="col-md-4" style="margin-left: 20%; margin-top: 10%">
+                            <img src="../image/icons/fsociety.png" height="80%">
+                        </div>
+                    </div>
                 </div>
 
                 <hr>
@@ -71,6 +85,10 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
                 integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+                crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+        <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
                 crossorigin="anonymous"></script>
     </body>
 </html>

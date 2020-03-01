@@ -7,24 +7,31 @@
         <meta name="author" content="Nomokonov Alex, Russia, Novosibirsk">
         <title>I am 4ubaka</title>
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-              integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-              crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                crossorigin="anonymous"></script>
-        <script src="https://use.fontawesome.com/4d20c55d17.js"></script>
+        <link rel="stylesheet" href="src/style/css/preloader.css">
+        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" href="src/style/css/style.css">
-        <link rel="icon" href="src/image/buysellads-brands.svg" sizes="180x180">
+
     </head>
     <body>
+        <div class="preload" id="preload">
+            <div id="load">
+                <div>A</div>
+                <div>K</div>
+                <div>A</div>
+                <div>B</div>
+                <div>U</div>
+                <div>4</div>
+            </div>
+        </div>
+
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <a class="navbar-brand" href="index.html">4ubaka</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <div class="navbar-collapse collapse show" id="navbarsExampleDefault" style="">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="src/pages/link.html">Contacts</a>
@@ -36,14 +43,18 @@
         <main role="main">
 
             <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron">
+            <div class="jumbotron"  style="background: #e9ecef">
                 <div class="container">
-                    <img src="src/image/1.png" align="right" class="img-circle">
-                    <h3 class="display-4">Hello,<br> my name is <br>Alexander Nomokonov.<br>
-                        I am a beginner backend developer want to develop in web development </h3>
-
+                    <div class="row">
+                        <div class="col-md-10">
+                            <h3 class="display-4">Hello,<br> my name is <br>Alexander Nomokonov.<br>
+                                I am a beginner backend developer want to develop in web development </h3>
+                        </div>
+                        <div class="col-md-2"  style="background: #e9ecef">
+                            <img src="src/image/1.png" class="img-circle" alt="" style="background: #e9ecef">
+                        </div>
+                    </div>
                 </div>
-
             </div>
 
             <div class="container">
@@ -51,30 +62,32 @@
                 <div class="row">
                     <div class="col-md-10">
                         <h2>Education</h2>
-                        <p>Graduated from the "Faculty of Informatics and Computer Engineering" of the Siberian State University of Telecommunications and Informatics
+                        <p>Graduated from the "Faculty of Informatics and Computer Engineering" of the Siberian State
+                            University of Telecommunications and Informatics
                             <br>
                             Bachelor's degree. Currently getting a master's degree. </p>
                     </div>
                     <div class="col-md-10">
                         <h2>Skills</h2>
                         <p>
-                            <ul>
-                                <li>Mobile Communications (1G-5G Generations)</li>
-                                <li>Former Mobile Base Station Engineer</li>
-                                <li>PHP 5-7.4</li>
-                                <li>HTML</li>
-                                <li>CSS</li>
-                                <li>Laravel</li>
-                                <li>Symfony</li>
-                                <li>Docker</li>
-                                <li>Composer</li>
-                                <li>Patterns(Factory, Boilerplate method, Observer, Decorator, Adapter and more)</li>
-                                <li>adhere to SOLID</li>
-                                <li>Server Virtualization</li>
-                                <li>confident user of Linux and Windows</li>
-                            </ul>
+                        <ul>
+                            <li>Mobile Communications (1G-5G Generations)</li>
+                            <li>Former Mobile Base Station Engineer</li>
+                            <li>PHP 5-7.4</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Laravel</li>
+                            <li>Symfony</li>
+                            <li>Docker</li>
+                            <li>Composer</li>
+                            <li>Patterns(Factory, Boilerplate method, Observer, Decorator, Adapter and more)</li>
+                            <li>adhere to SOLID</li>
+                            <li>Server Virtualization</li>
+                            <li>confident user of Linux and Windows</li>
+                        </ul>
                         </p>
-                        <p><a class="btn btn-secondary" href="https://github.com/4ubi?tab=repositories" role="button">View my repositories on GitHub &raquo;</a></p>
+                        <p><a class="btn btn-secondary" href="https://github.com/4ubi?tab=repositories" role="button">View
+                            my repositories on GitHub &raquo;</a></p>
                     </div>
                 </div>
 
@@ -87,11 +100,12 @@
         <footer class="container">
             <p>&copy; 4ubi 2020</p>
         </footer>
+        <script src="src/style/js/my_preload.js"> </script>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
                 integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
                 crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-        <script src="/docs/4.4/dist/js/bootstrap.bundle.min.js"
+        <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
+        <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"
                 integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
                 crossorigin="anonymous"></script>
     </body>

@@ -1,0 +1,10 @@
+footer {
+
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+
+}
+
+.contacts {
+    height: 60%;
+}

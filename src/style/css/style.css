@@ -9,6 +9,12 @@ body {
     -ms-user-select: none;
     user-select: none;
 }
+footer {
+    flex: 0 0 auto;
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+
+}
 
 @media (min-width: 768px) {
     .bd-placeholder-img-lg {
