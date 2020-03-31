@@ -1,113 +1,61 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="description" content="">
-        <meta name="author" content="Nomokonov Alex, Russia, Novosibirsk">
-        <title>I am 4ubaka</title>
-        <!-- Bootstrap core CSS -->
-        <script src="src/style/js/my_preload.js"> </script>
-        <link rel="stylesheet" href="src/style/css/preloader.css">
-        <link href="https://getbootstrap.com/docs/4.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-        <link rel="stylesheet" href="src/style/css/style.css">
-
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="src/style/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Главная</title>
     </head>
-    <body style="background: #e9ecef">
-        <div class="preload" id="preload">
-            <div id="load">
-                <div>A</div>
-                <div>K</div>
-                <div>A</div>
-                <div>B</div>
-                <div>U</div>
-                <div>4</div>
+    <body>
+        <header>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="https://github.com/4ubi">View GitHub</a></li>
+            </ul>
+        </header>
+        <div class="intro">
+
+            <div class="video">
+                <video class="video__media" src="src/video/Words.webm" autoplay muted loop></video>
+            </div>
+
+            <div class="intro__content">
+                <div class="container">
+                    <h1 class="intro__title_h1">Alexandr Nomokonov</h1>
+                    <h6 class="intro__title_h6">backend developer</h6>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="education">
+                <div class="imgdiv"></div>
+                <h2>Education</h2>
+                <div>Graduated from the "Faculty of Informatics and Computer Engineering" of the Siberian State University of Telecommunications and Informatics
+                    Bachelor's degree. Currently getting a master's degree.</div>
+            </div>
+
+            <div class="skills">
+                <h2>Skills</h2>
+                <div>
+                    <ul>
+                        <li>Mobile Communications (1G-5G Generations)</li>
+                        <li>Former Mobile Base Station Engineer</li>
+                        <li>PHP 5-7.4</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Laravel</li>
+                        <li>Symfony</li>
+                        <li>Docker</li>
+                        <li>Composer</li>
+                        <li>Patterns(Factory, Boilerplate method, Observer, Decorator, Adapter and more)</li>
+                        <li>adhere to SOLID</li>
+                        <li>Server Virtualization</li>
+                        <li>confident user of Linux and Windows</li>
+
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-            <a class="navbar-brand" href="index.html">4ubaka</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
-                    aria-controls="navbarsExampleDefault" aria-expanded="true" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="navbar-collapse collapse show" id="navbarsExampleDefault" style="">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="src/pages/link.html">Contacts</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-
-        <main role="main" style="background: #fff;white-space: normal" >
-
-            <!-- Main jumbotron for a primary marketing message or call to action -->
-            <div class="jumbotron"  style="background: #e9ecef">
-                <div class="container">
-                    <div class="row" >
-                        <div class="col-md-10">
-                            <h3 class="display-4" style="margin-top: 5%">Hello,<br> my name is <br>Alexander Nomokonov.<br>
-                                I am a beginner backend developer want to develop in web development </h3>
-                        </div>
-                        <div class="col-md-2"  style="background: #e9ecef">
-                            <img src="src/image/1.png" class="img-circle" alt="" style="background: #e9ecef">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container" style="width: 100%">
-                <!-- Example row of columns -->
-                <div class="row">
-                    <div class="col-md-10">
-                        <h2>Education</h2>
-                        <p>Graduated from the "Faculty of Informatics and Computer Engineering" of the Siberian State
-                            University of Telecommunications and Informatics
-                            <br>
-                            Bachelor's degree. Currently getting a master's degree. </p>
-                    </div>
-                    <div class="col-md-10">
-                        <h2>Skills</h2>
-                        <p>
-                        <ul>
-                            <li>Mobile Communications (1G-5G Generations)</li>
-                            <li>Former Mobile Base Station Engineer</li>
-                            <li>PHP 5-7.4</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>Laravel</li>
-                            <li>Symfony</li>
-                            <li>Docker</li>
-                            <li>Composer</li>
-                            <li>Patterns(Factory, Boilerplate method, Observer, Decorator, Adapter and more)</li>
-                            <li>adhere to SOLID</li>
-                            <li>Server Virtualization</li>
-                            <li>confident user of Linux and Windows</li>
-                        </ul>
-                        </p>
-                        <p><a class="btn btn-secondary" href="https://github.com/4ubi?tab=repositories" role="button">View
-                            my repositories on GitHub &raquo;</a></p>
-                    </div>
-                </div>
-
-                <hr>
-
-            </div> <!-- /container -->
-
-        </main>
-
-        <footer class="container">
-            <p>&copy; 4ubi 2020</p>
-        </footer>
-        <script src="src/style/js/my_preload.js"> </script>
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-                crossorigin="anonymous"></script>
-        <script>window.jQuery || document.write('<script src="https://getbootstrap.com/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script>
-        <script src="https://getbootstrap.com/docs/4.4/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm"
-                crossorigin="anonymous"></script>
     </body>
 </html>
