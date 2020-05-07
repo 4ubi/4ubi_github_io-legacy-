@@ -173,7 +173,7 @@ header {
     /*background: beige;*/
     z-index: 3;
 }
-.skills h2{
+.skills h2 {
     font-family: 'Exodus-PersonalUse-Striped';
 }
 
@@ -183,6 +183,26 @@ header {
     margin-right: 4%;
     text-align: justify;
 
+}
+
+.skills a:link {
+    text-decoration: none;
+    color: green;
+}
+
+.skills a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.skills a:active {
+    text-decoration: none;
+    color: chartreuse;
+}
+
+.skills a:hover {
+    text-decoration: none;
+    color: darkcyan;
 }
 .about {
     height: 500px;
